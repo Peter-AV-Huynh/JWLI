@@ -1,0 +1,510 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header {
+    height: 375%;
+    width: 100%;
+    clear: both;
+}
+
+.nav {
+    height: 75px;
+    width: 100%;
+    padding-top: 2%;
+    float: left;
+    list-style: none;
+}
+
+.bar {
+    list-style: none;
+    color: rgb(62, 68, 76);
+    text-decoration: none;
+    font-size: 1.3rem;
+    float: left;
+    width: 10%;
+    padding-left: 6%;
+}
+
+#app {
+    background: rgb(51, 57, 66);
+    color: white;
+    width: 10%;
+    padding: 7px 15px;
+    text-align: center;
+    margin-left: 10%;
+    font-weight: 500;
+}
+
+header section {
+    height: 375px;
+    width: 60%;
+    float: left;
+    background: rgb(241, 243, 245);
+    
+}
+
+header section h1 {
+    font-size: 2rem;
+    padding-bottom: 8px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+header section p {
+    font-size: 1.5rem;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+header section p + p{
+    font-size: 1.2rem;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 6%;
+}
+
+input{
+    font-size: 1.2rem;
+    margin-left: 8%;
+    margin-top: 2%;
+    width: 39%;
+    padding: 5px;
+}
+
+input + input{
+    font-size: 1.2rem;
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 19%;
+    padding: 5px;
+    color: white;
+    background: rgb(184, 197, 207);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
+}
+
+.sub {
+    display: block;
+    margin-left: 45%;
+    margin-right: 8%;
+    width: 18%;
+}
+
+header section + section{
+    height: 375px;
+    width: 40%;
+    float: left;
+    background: url(pic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    height: 125px;
+    width: 100%;
+    float: left;
+    font-weight: 500;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 2% 7%;
+    font-weight: 500;
+}
+
+.dev {
+    height: 150px;
+    width: 100%;
+    float: left;
+}
+
+span {
+    font-weight: 500;
+}
+
+.dev section{
+    height: 150px;
+    width: 50%;
+    float: left;
+}
+
+.dev section p{
+    font-size: 1.4rem;
+    margin-right: 5%;
+    margin-left: 12%;
+    padding-top: 3%;
+    border-top: 4px solid rgb(255, 241, 249);
+}
+
+.dev section + section{
+    height: 150px;
+    width: 50%;
+    float: left;
+}
+
+.text {
+    height: 90px;
+    width: 100%;
+    float: left;
+}
+
+.text p {
+    text-align: center;
+    font-size: 1.4rem;
+    color: rgb(188, 196, 201);
+    font-style: italic;
+}
+
+.history {
+    height: 500px;
+    width: 100%;
+    float: left;
+    background: rgb(241, 243, 245);
+}
+
+.history section{
+    height: 500px;
+    width: 62%;
+    float: left;
+}
+
+.history h3{
+    padding: 3%;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.history p {
+    padding: 0% 3%;
+    font-size: 1.3rem;
+    line-height: 200%;
+}
+
+.history section + section{
+    height: 500px;
+    width: 38%;
+    float: left;
+}
+
+.his {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 170px;
+    height: auto;
+    padding: 7% 0%;
+}
+
+.who {
+    height: 450px;
+    width: 100%;
+    float: left;
+}
+
+.who section{
+    height: 90px;
+    width: 100%;
+    float: left;
+}
+
+.who section h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 2%;
+    font-weight: 500;
+}
+
+.who section + section{
+    height: 360px;
+    width: 35%;
+    float: left;
+}
+
+.f {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: auto;
+    padding-top: 5%;
+}
+
+.who section + section + section{
+    height: 360px;
+    width: 65%;
+    float: left;
+}
+
+.who section h5 {
+    padding: 2% 2% 1% 2%;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.who section p {
+    padding: 2%;
+    line-height: 200%;
+    font-size: 1.3rem;
+}
+
+.fish {
+    height: 300px;
+    width: 100%;
+    float: left;
+}
+
+.fish section{
+    height: 300px;
+    width: 50%;
+    float: left;
+}
+
+.fish section + section{
+    height: 300px;
+    width: 50%;
+    float: left;
+}
+
+.fish section h5 {
+    padding: 2% 2% 1% 2%;
+    font-size: 1.9rem;
+    color: rgb(170, 172, 173);
+    font-weight: 500;
+}
+
+.fish section h6 {
+    padding: 2% 2% 0% 2%;
+    font-size: 3rem;
+    color: rgb(146, 154, 158);
+    text-decoration: underline;
+}
+
+.fish section p {
+    padding: 2%;
+    line-height: 200%;
+    font-size: 1.3rem;
+}
+
+#loc {
+    color: rgb(146, 154, 158);
+    padding: 0% 2% 0% 2%;
+    font-size: 1rem;
+}
+
+.news {
+    height: 60px;
+    width: 100%;
+    float: left;
+    background: rgb(184, 197, 208);
+}
+
+.news section {
+    height: 60px;
+    width: 45%;
+    float: left;
+    background: rgb(184, 197, 208);
+}
+
+.news section + section{
+    height: 60px;
+    width: 55%;
+    float: left;
+    background: rgb(184, 197, 208);
+}
+
+.news p {
+    color: white;
+    font-size: 1.6rem;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4%;
+}
+
+.input{
+    font-size: 1.2rem;
+    margin-left: 8%;
+    margin-top: 2%;
+    width: 35%;
+    padding: 5px;
+}
+
+
+footer {
+    height: 250px;
+    width: 100%;
+    clear: both;
+    background: rgb(143, 156, 163);
+}
+
+footer section {
+    height: 80px;
+    width: 100%;
+    
+}
+
+footer section section{
+    border-bottom: 2px solid white;
+    height: 80px;
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+}
+
+footer section section p{
+    color: white;
+    text-align: left;
+    font-size: 1.3rem;
+    padding-top: 5%;
+    font-weight: 500;
+}
+
+footer section section + section{
+    border-bottom: 2px solid white;
+    height: 80px;
+    width: 40%;
+    float: left;
+    margin-right: 10%;
+    margin-left: 0;
+}
+
+.sm {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    float: right;
+    padding-top: 5%;
+    width: 20%;
+}
+
+footer section + section{
+    height: 170px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bot {
+    float: left;
+    width: 14.1%;
+    padding-top: 3%;
+    line-height: 200%;
+}
+
+.bot a {
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.b {
+    font-weight: 500;
+}
+
+/*Phone layout. Stack sections. Remove unneeded content*/
+
+@media screen and (min-width: 0){
+    .who{
+        display: none;
+    }
+    .fish{
+        display: none;
+    }
+    .history{
+        height: 900px;
+    }
+
+}
+
+/*Tablet layout. Remove unneeded content*/
+
+@media screen and (min-width: 768px){
+    .who{
+        display: none;
+    }
+    .fish{
+        display: block;
+    }
+    .history{
+        height: 700px;
+    }
+}
+
+/*Desktop layout. Bring everything back to normal*/
+
+@media screen and (min-width: 1024px){
+    .who{
+        display: block;
+    }
+    .fish{
+        display: block;
+    }
+    .history{
+        height: 500px;
+    }
+}
